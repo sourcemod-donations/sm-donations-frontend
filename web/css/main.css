@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Catamaran', serif;
+    font-weight: 800 !important;
+}
+
+.bg-black {
+    background: black !important;
+}
+
+#navbarResponsive i {
+    vertical-align: text-top;
+}
+
+.navbar-custom {
+    height: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.header {
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%) no-repeat scroll center center;
+    background-size: cover;
+}
+
+.header .header-content {
+    z-index: 1;
+    position: relative;
+}
+
+.header .header-content .header-heading {
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+
+.header .header-content .header-subheading {
+    padding: 0 25%;
+}
+
+@media (min-width: 992px) {
+    .header {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+    }
+    .header .header-content .header-heading {
+        font-size: 6rem;
+    }
+}

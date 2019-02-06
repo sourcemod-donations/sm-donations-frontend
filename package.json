@@ -1,0 +1,29 @@
+{
+  "name": "sm-donations-frontend",
+  "version": "1.0.0",
+  "description": "Sourcemod Donations Frontend",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourcemod-donations/sm-donations-frontend.git"
+  },
+  "author": "B3none",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourcemod-donations/sm-donations-frontend/issues"
+  },
+  "homepage": "https://github.com/sourcemod-donations/sm-donations-frontend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "latest",
+    "twig": "^1.13.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-run": "latest",
+    "gulp-watch": "^5.0.0"
+  }
+}
