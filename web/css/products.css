@@ -1,5 +1,6 @@
 .products-container {
     margin-top: 90px;
+    margin-bottom: 20px;
 }
 
 .product-grid, .product-grid .product-image {
