@@ -1,3 +1,7 @@
+.products-container {
+    margin-top: 56px;
+}
+
 .product-grid, .product-grid .product-image {
     overflow: hidden
 }

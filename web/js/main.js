@@ -1,3 +1,3 @@
 setTimeout(
     hasLoaded
-, 3000);
+, 1000);

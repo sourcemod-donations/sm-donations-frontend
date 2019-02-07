@@ -25,10 +25,11 @@ h6 {
 }
 
 .navbar-custom {
-    height: 10%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: transparent;
+
+    border-top: 3px solid #ff2f33;
+    background-color: black;
 }
 
 .navbar-custom .navbar-brand {
@@ -66,6 +67,10 @@ h6 {
 
 .header .header-content .header-subheading {
     padding: 0 25%;
+}
+
+footer {
+    height: 10%;
 }
 
 @media (min-width: 992px) {
